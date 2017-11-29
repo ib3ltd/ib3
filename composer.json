@@ -1,7 +1,7 @@
 {
     "name": "ib3/ib3",
     "description": "Default frontend theme for ib3 installs.",
-    "type": "drupal-theme",
+    "type": "drupal-custom-theme",
     "authors": [
         {
             "name": "ib3",
