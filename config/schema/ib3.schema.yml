@@ -1,0 +1,5 @@
+# Schema for the configuration files of the ib3 theme.
+
+ib3.settings:
+  type: theme_settings
+  label: 'ib3 settings'

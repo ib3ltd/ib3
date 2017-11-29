@@ -1,0 +1,79 @@
+.toolbar {
+  .toolbar {
+    button {
+      .toolbar-icon {
+        &:hover {
+            background-color: transparent;
+        }
+      }
+    }
+  }
+  .toolbar-bar {
+    background-color: #3FBFBB;
+    z-index: 9000;
+    .toolbar-icon-user{
+      &:before {
+        background-image: url(/core/themes/stable/images/core/icons/ffffff/person.svg);
+      }
+    }
+
+    .toolbar-icon-menu{
+      &:before {
+        background-image: url(/core/themes/stable/images/core/icons/ffffff/hamburger.svg);
+      }
+    }
+
+    .toolbar-icon-escape-admin{
+      &:before {
+        background-image: url(/core/themes/stable/images/core/icons/ffffff/house.svg);
+      }
+    }
+
+    .toolbar-icon-edit {
+      border-radius: 0;
+      &:before {
+        background-image: url(/themes/custom/ib3_admin/static/images/icons/FFFFFF/pencil.svg);
+      }
+    }
+
+    #toolbar-item-user {
+      display: none;
+    }
+  }
+
+  .toolbar-menu {
+    .toolbar-icon {
+      &.toolbar-handle {
+        &:before {
+          background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/chevron-disc-down.svg);
+        }
+        .open {
+          &:before {
+            background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/chevron-disc-up.svg);
+          }
+        }
+      }
+    }
+    .toolbar-menu {
+      .toolbar-icon {
+        &.toolbar-handle {
+          &:before {
+            background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/twistie-down.svg);
+          }
+          .open {
+            &:before {
+              background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/twistie-up.svg);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .toolbar-tray {
+    &.toolbar-tray-vertical {
+      box-shadow: 0px 0 2px 0px rgba(0, 0, 0, 0.3333);
+      margin-top:1px;
+    }
+  }
+}

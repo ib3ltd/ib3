@@ -1,0 +1,21 @@
+name: ib3
+type: theme
+description: 'ib3 Client base template'
+package: Core
+# version: VERSION
+# core: 8.x
+base theme: false
+
+# Information added by Drupal.org packaging script on 2017-08-16
+version: '8.x-1.0'
+core: '8.x'
+
+libraries:
+  - ib3/base
+
+libraries-override:
+  contextual/drupal.contextual-links:
+    css:
+      component:
+        /core/themes/stable/css/contextual/contextual.module.css: false
+  core/jquery: false

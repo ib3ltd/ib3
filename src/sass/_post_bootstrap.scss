@@ -1,0 +1,9 @@
+
+select:not([multiple]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(/themes/custom/ib3/static/images/svg/down-arrow.svg);
+  background-size: auto 50%;
+}

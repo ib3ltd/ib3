@@ -1,0 +1,8 @@
+base:
+  version: VERSION
+  css:
+    theme:
+      static/css/ib3.css: {}
+  js:
+    static/js/ib3.js: {weight: -100}
+  dependencies:
