@@ -32,7 +32,7 @@
     .toolbar-icon-edit {
       border-radius: 0;
       &:before {
-        background-image: url(/themes/custom/ib3_admin/static/images/icons/FFFFFF/pencil.svg);
+        background-image: url(/themes/contrib/ib3_admin/static/images/icons/FFFFFF/pencil.svg);
       }
     }
 
@@ -45,11 +45,11 @@
     .toolbar-icon {
       &.toolbar-handle {
         &:before {
-          background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/chevron-disc-down.svg);
+          background-image: url(/themes/contrib/ib3_admin/static/images/icons/3FBFBB/chevron-disc-down.svg);
         }
         .open {
           &:before {
-            background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/chevron-disc-up.svg);
+            background-image: url(/themes/contrib/ib3_admin/static/images/icons/3FBFBB/chevron-disc-up.svg);
           }
         }
       }
@@ -58,11 +58,11 @@
       .toolbar-icon {
         &.toolbar-handle {
           &:before {
-            background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/twistie-down.svg);
+            background-image: url(/themes/contrib/ib3_admin/static/images/icons/3FBFBB/twistie-down.svg);
           }
           .open {
             &:before {
-              background-image: url(/themes/custom/ib3_admin/static/images/icons/3FBFBB/twistie-up.svg);
+              background-image: url(/themes/contrib/ib3_admin/static/images/icons/3FBFBB/twistie-up.svg);
             }
           }
         }
