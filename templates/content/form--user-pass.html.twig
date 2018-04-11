@@ -1,0 +1,26 @@
+
+<section class="row">
+  <div class="col-12">
+    <div id="login-form-wrapper" class="row justify-content-center">
+      <div class="col-12 text-center pt-5">
+        <h1 class="h3 pb-2">Password Reset</h1>
+        <p>Password reset instructions will be sent to your registered email address.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <form{{ attributes }}>
+          <div class="row pb-5">
+            <div class="col-12">
+              <div class="form-group">
+                <label>Username</label>
+                {{ element.name }} {# username element #}
+              </div>
+              {{ element.form_build_id }} {# required #}
+              {{ element.form_id }} {# required #}
+              {{ element.actions.submit }}
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
