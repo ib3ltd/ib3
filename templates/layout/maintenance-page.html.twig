@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a single Drupal page while offline.
+ *
+ * All available variables are mirrored in page.html.twig.
+ * Some may be blank but they are provided for consistency.
+ *
+ * @see template_preprocess_maintenance_page()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="container">
+  <main role="main">
+    <div class="layout-content">
+      <section id="maintenance-container" class="row">
+        <div class="col-12 col-lg-6 pt-5" style="">
+          {% if title %}
+            <h1 class="py-5"><b>{{ title }}</b></h1>
+          {% endif %}
+          {{ page.highlighted }}
+          {{ page.content }}
+        </div>
+        <div class="d-none d-lg-block col-6 pt-5">
+          <img class="w-100" src="/themes/custom/ib3/static/images/jpg/maintenance.jpg">
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
